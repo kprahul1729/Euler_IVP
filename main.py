@@ -10,7 +10,7 @@ step_sizes = {20, 100, 1000}
 for n in step_sizes:                
   y_values = euler(f, 1, 0, 5, n)
   t_values = np.linspace(0, 5, n + 1)
-  plt.plot(t_values, y_values, label='n={n}')
+  plt.plot(t_values, y_values, label=f'n={n}')
   
 plt.xlabel('t')
 plt.ylabel('y')

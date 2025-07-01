@@ -9,9 +9,10 @@ pub fn euler( f: impl Fn(f64, f64) -> f64,
   let mut result = Vec::with_capacity(n+1);
   result.push((t_start, y0));
   let mut y = y0;
-  let t = t_start;
+  let mut t = t_start;
   for _ in 0..n{
     y += h * f(t,y);
+t += h;
     result.push((t,y));
   }
   result

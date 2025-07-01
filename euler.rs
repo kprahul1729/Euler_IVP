@@ -1,4 +1,5 @@
-fn euler( f: impl Fn(f64, f64) -> f64,
+// function should be public ( for using this as a module)
+pub fn euler( f: impl Fn(f64, f64) -> f64,
          y0: f64,
          t_start: f64,
          t_end: f64,

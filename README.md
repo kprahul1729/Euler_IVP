@@ -1,5 +1,5 @@
 # Euler_IVP
-This project provides implementations of the Euler method for solving ordinary differential equations (ODEs) in Rust (`Euler.rs`) and Python (`Euler.py`).
+This project provides implementations of the Euler method for solving ordinary differential equations (ODEs) in Rust (`euler.rs`) and Python (`Euler.py`).
 
 ## Function: `euler`
 

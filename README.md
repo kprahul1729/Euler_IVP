@@ -18,4 +18,4 @@ Array (or list) of solution values at each step.
 
 ## Example Usage
 
-euler(f, 1, 0, 5, 20)
+euler(f, 1.0, 0.0, 5.0, 20)

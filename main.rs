@@ -1,5 +1,6 @@
 mod euler; // using Euler.rs as a module in this to use the function euler().
 use std::fs::File;
+use std::io::BufWriter;
 // Define function f(t,y) such that ODE: dy/dt=f(t,y) 
 fn f(t: f64, y: f64) -> f64{
     t.cos() - y // return function value ( dont't use semicolon)
